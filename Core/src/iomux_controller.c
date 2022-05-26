@@ -9,15 +9,14 @@
  *
  */
 
-#include "iomux_controller.h"
+#include "../include/iomux_controller.h"
 void
 init_device_muxmode(muxdev_s *   mux_device,
                     vuint32_t *  sw_mux,
                     vuint32_t *  sw_pad,
                     muxpad_dse_e dse_opt,
                     uint8_t      ctrl_pos,
-                    muxmode_e    mux_mode)
-{
+                    muxmode_e    mux_mode) {
   mux_device = (muxdev_s *)malloc_(sizeof(muxdev_s));
   if (mux_device == NULL) {
     return;
@@ -36,7 +35,6 @@ init_device_muxmode(muxdev_s *   mux_device,
 }
 
 void
-set_muxmode(muxdev_s * mux_device, muxmode_e mux_mode)
-{
+set_muxmode(muxdev_s * mux_device, muxmode_e mux_mode) {
   *(mux_device->mux_pad_context.mux_pad_addr) = mux_mode;
 }

@@ -45,9 +45,16 @@ $(BUILD_DIR)/%.s.o: %.s
 
 $(BUILD_DIR)/%.c.o: %.c
 	@$(MKDIR_P) $(dir $@)
-	$(CPPHECK) $(CPPCHECKFLAGS) $<
-	$(CPPLINT) $(CPPLINTFLAGS) $<
-	$(CC) $(CFLAGS) -c $< -o $@
+	@echo \>\>
+	@echo \>\> Invoking CPPCHECK
+	$(CPPCHECK) $(CPPCHECKFLAGS) $<
+	@echo \>\>
+	@echo \>\> Invoking gcc
+	echo $(CC) $(CFLAGS) -c $< -o $@
+	#@echo \>\>
+	#@echo \>\> Invoking CPPLINT
+	#$(CPPLINT) $(CPPLINTFLAGS) $< 2> cpplint.errors
+	
 
 .PHONY: flashnew
 flashnew: 
