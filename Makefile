@@ -8,7 +8,7 @@ LOADER = teensy_loader_cli
 OUTFILE = firmware
 
 BUILD_DIR = ./build
-SRC_DIRS ?= ./TBM_CC/Core/src ./TBM_CC/teensy ./TBM_CC/Core/include
+SRC_DIRS ?= ./Core/src ./Core/include ./LowestLevel
 
 SRCS := $(shell find $(SRC_DIRS) -name *.c -or -name *.s)
 OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
@@ -19,7 +19,7 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
 INITOPTS = -Wl,--gc-sections,--print-gc-sections,--print-memory-usage -nostdlib -nostartfiles
 EXTMEMOPTS = -Wl,--defsym=__heap_start=0x20200000,--defsym=__heap_end=0x2027ffff
-LDSCRIPT_PATH = -TTBM_CC/teensy/imxrt1062.ld
+LDSCRIPT_PATH = -TLowestLevel/imxrt1062.ld
 
 CFLAGS = -O3 -Wall -Werror -Wno-error=unused-variable -mcpu=cortex-m7 -mthumb $(INC_FLAGS)
 LDFLAGS = $(INITOPTS)
