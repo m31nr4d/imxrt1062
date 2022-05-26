@@ -1,0 +1,312 @@
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/iomux_controller.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/iomux_controller.c.o
+ .text          0x0000000000000000       0x30 build/./TBM_CC/Core/src/display_driver.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/display_driver.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/display_driver.c.o
+ .comment       0x0000000000000000       0x58 build/./TBM_CC/Core/src/display_driver.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/display_driver.c.o
+ .data          0x0000000000000000        0xc build/./TBM_CC/Core/src/system_heap.c.o
+ .text          0x0000000000000000      0x8ac build/./TBM_CC/Core/src/simple_glyphs.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/simple_glyphs.c.o
+ .bss           0x0000000000000000        0xc build/./TBM_CC/Core/src/simple_glyphs.c.o
+ .rodata        0x0000000000000000      0x6dd build/./TBM_CC/Core/src/simple_glyphs.c.o
+ .comment       0x0000000000000000       0x58 build/./TBM_CC/Core/src/simple_glyphs.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/simple_glyphs.c.o
+ .text          0x0000000000000000        0x0 build/./TBM_CC/Core/src/iomux_manager.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/iomux_manager.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/iomux_manager.c.o
+ .comment       0x0000000000000000       0x58 build/./TBM_CC/Core/src/iomux_manager.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/iomux_manager.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/utils/utimer_mgr.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/utils/utimer_mgr.c.o
+ .data          0x0000000000000000       0x18 build/./TBM_CC/Core/src/timer_manager.c.o
+ .bss           0x0000000000000000       0xa8 build/./TBM_CC/Core/src/timer_manager.c.o
+ .text          0x0000000000000000        0x0 build/./TBM_CC/Core/src/system_memory_map.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/system_memory_map.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/system_memory_map.c.o
+ .comment       0x0000000000000000       0x58 build/./TBM_CC/Core/src/system_memory_map.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/system_memory_map.c.o
+ .text          0x0000000000000000        0x0 build/./TBM_CC/Core/src/main.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/main.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/main.c.o
+ .data          0x0000000000000000        0x4 build/./TBM_CC/Core/src/gpio_handler.c.o
+ .bss           0x0000000000000000       0x90 build/./TBM_CC/Core/src/gpio_handler.c.o
+ .text          0x0000000000000000       0x80 build/./TBM_CC/Core/src/mpu.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/mpu.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/mpu.c.o
+ .comment       0x0000000000000000       0x58 build/./TBM_CC/Core/src/mpu.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/mpu.c.o
+ .text          0x0000000000000000       0x40 build/./TBM_CC/Core/src/aprintf.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/Core/src/aprintf.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/Core/src/aprintf.c.o
+ .comment       0x0000000000000000       0x58 build/./TBM_CC/Core/src/aprintf.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/aprintf.c.o
+ .text          0x0000000000000000        0x0 build/./TBM_CC/teensy/bootdata.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/teensy/bootdata.c.o
+ .bss           0x0000000000000000        0x0 build/./TBM_CC/teensy/bootdata.c.o
+ .text          0x0000000000000000       0x24 build/./TBM_CC/teensy/startup.c.o
+ .data          0x0000000000000000        0x0 build/./TBM_CC/teensy/startup.c.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ITCM             0x0000000000000000 0x0000000000080000 xrw
+DTCM             0x0000000020000000 0x0000000000080000 xrw
+RAM              0x0000000020200000 0x0000000000080000 xrw
+FLASH            0x0000000060000000 0x00000000007c0000 xrw
+ERAM             0x0000000070000000 0x0000000001000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000020200000                __heap_start = 0x20200000
+                0x000000002027ffff                __heap_end = 0x2027ffff
+LOAD build/./TBM_CC/Core/src/iomux_controller.c.o
+LOAD build/./TBM_CC/Core/src/display_driver.c.o
+LOAD build/./TBM_CC/Core/src/system_heap.c.o
+LOAD build/./TBM_CC/Core/src/simple_glyphs.c.o
+LOAD build/./TBM_CC/Core/src/iomux_manager.c.o
+LOAD build/./TBM_CC/Core/src/utils/utimer_mgr.c.o
+LOAD build/./TBM_CC/Core/src/timer_manager.c.o
+LOAD build/./TBM_CC/Core/src/system_memory_map.c.o
+LOAD build/./TBM_CC/Core/src/main.c.o
+LOAD build/./TBM_CC/Core/src/gpio_handler.c.o
+LOAD build/./TBM_CC/Core/src/mpu.c.o
+LOAD build/./TBM_CC/Core/src/aprintf.c.o
+LOAD build/./TBM_CC/teensy/bootdata.c.o
+LOAD build/./TBM_CC/teensy/startup.c.o
+
+.text.progmem   0x0000000060000000     0x11e0
+ *(.flashconfig)
+ .flashconfig   0x0000000060000000      0x200 build/./TBM_CC/teensy/bootdata.c.o
+                0x0000000060000000                FlexSPI_NOR_Config
+ FILL mask 0xff
+                0x0000000060001000                . = (ORIGIN (FLASH) + 0x1000)
+ *fill*         0x0000000060000200      0xe00 ff
+ *(.ivt)
+ .ivt           0x0000000060001000       0x20 build/./TBM_CC/teensy/bootdata.c.o
+                0x0000000060001000                ImageVectorTable
+ *(.bootdata)
+ .bootdata      0x0000000060001020        0xc build/./TBM_CC/teensy/bootdata.c.o
+                0x0000000060001020                BootData
+ *(.vectors)
+ .vectors       0x000000006000102c        0x8 build/./TBM_CC/teensy/bootdata.c.o
+                0x000000006000102c                vector_table
+ *(.startup)
+ .startup       0x0000000060001034      0x198 build/./TBM_CC/teensy/startup.c.o
+                0x0000000060001034                startup
+ *fill*         0x00000000600011cc        0x4 ff
+ .startup.__stub
+                0x00000000600011d0       0x10 linker stubs
+ *(.progmem*)
+                0x00000000600011e0                . = ALIGN (0x4)
+ *(.init)
+                0x00000000600011e0                __preinit_array_start = .
+ *(.preinit_array)
+                0x00000000600011e0                __preinit_array_end = .
+                0x00000000600011e0                __init_array_start = .
+ *(.init_array)
+                0x00000000600011e0                __init_array_end = .
+                0x00000000600011e0                . = ALIGN (0x10)
+ *fill*         0x00000000600011e0        0x0 ff
+
+.text.itcm      0x0000000000000000     0x1c60 load address 0x00000000600011e0
+                0x0000000000000020                . = (. + 0x20)
+ *fill*         0x0000000000000000       0x20 
+ *(.fastrun)
+ *(.text*)
+ .text          0x0000000000000020       0x40 build/./TBM_CC/Core/src/iomux_controller.c.o
+                0x0000000000000020                init_device_muxmode
+                0x0000000000000058                set_muxmode
+ .text          0x0000000000000060      0x8a0 build/./TBM_CC/Core/src/system_heap.c.o
+                0x0000000000000178                malloc_
+                0x000000000000019c                free
+                0x00000000000002d8                __gen_single_heapg__
+                0x0000000000000338                __init_ram_heap__
+                0x00000000000003e8                __find_mem__
+                0x00000000000003f0                __compactation__
+                0x000000000000056c                __remove_block__
+                0x0000000000000678                __coalesce__
+                0x0000000000000764                __coalesce_front__
+                0x00000000000007f8                __coalesce_back__
+                0x00000000000008a0                __data_swap_next__
+ .text          0x0000000000000900      0x910 build/./TBM_CC/Core/src/utils/utimer_mgr.c.o
+                0x0000000000000900                __time_clamp_24MHz__
+                0x00000000000009cc                __time_clamp_50MHz__
+                0x0000000000000a84                __time_clamp_100MHz__
+                0x0000000000000b30                __time_clamp_150MHz__
+                0x0000000000000be0                __time_clamp_200MHz__
+                0x0000000000000c8c                __resolve_time_24MHz__
+                0x0000000000000dd0                __resolve_time_50MHz__
+                0x0000000000000f08                __resolve_time_100MHz__
+                0x0000000000000ffc                __resolve_time_150MHz__
+                0x0000000000001108                __resolve_time_200MHz__
+ .text          0x0000000000001210      0x61c build/./TBM_CC/Core/src/timer_manager.c.o
+                0x0000000000001210                init_gptman
+                0x0000000000001218                __slct_clksrc_gpt__
+                0x00000000000012c0                __set_callback_gpt__
+                0x00000000000012c4                __set_comparator_gpt__
+                0x0000000000001344                set_time
+                0x0000000000001494                __setup_gpt2__
+                0x00000000000014f0                init_pitman
+                0x0000000000001558                setupPITx
+                0x0000000000001638                setup_pit_timer
+                0x0000000000001738                reset_pit
+ .text.startup  0x000000000000182c       0x18 build/./TBM_CC/Core/src/main.c.o
+                0x000000000000182c                main
+ .text          0x0000000000001844      0x418 build/./TBM_CC/Core/src/gpio_handler.c.o
+                0x0000000000001844                trigger_gpio
+                0x0000000000001848                callback_toggle_led
+                0x0000000000001868                init_gpio
+                0x00000000000019dc                set_gpr_gdir
+                0x0000000000001a64                init_onboard_led
+                0x0000000000001b38                blinky_led_example_PIT
+                0x0000000000001b90                blinky_led_abstracted_example
+                0x0000000000001bb8                blinky_led_original_example
+                0x0000000000001c60                . = ALIGN (0x10)
+ *fill*         0x0000000000001c5c        0x4 
+
+.glue_7         0x0000000000001c60        0x0 load address 0x0000000060002e40
+ .glue_7        0x0000000000001c60        0x0 linker stubs
+
+.glue_7t        0x0000000000001c60        0x0 load address 0x0000000060002e40
+ .glue_7t       0x0000000000001c60        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000001c60        0x0 load address 0x0000000060002e40
+ .vfp11_veneer  0x0000000000001c60        0x0 linker stubs
+
+.v4_bx          0x0000000000001c60        0x0 load address 0x0000000060002e40
+ .v4_bx         0x0000000000001c60        0x0 linker stubs
+
+.iplt           0x0000000000001c60        0x0 load address 0x0000000060002e40
+ .iplt          0x0000000000001c60        0x0 build/./TBM_CC/Core/src/iomux_controller.c.o
+
+.ARM.exidx      0x0000000000001c60        0x0 load address 0x0000000060002e40
+                0x0000000000001c60                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000001c60                __exidx_end = .
+
+.text.itcm.padding
+                0x0000000000001c60     0x63a0 load address 0x0000000060002e40
+                0x0000000000008000                . = ALIGN (0x8000)
+ *fill*         0x0000000000001c60     0x63a0 
+
+.data           0x0000000020000000       0x20 load address 0x0000000060002e40
+ *(.rodata*)
+ .rodata        0x0000000020000000       0x20 build/./TBM_CC/Core/src/gpio_handler.c.o
+ *(.data*)
+
+.igot.plt       0x0000000020000020        0x0 load address 0x0000000060002e60
+ .igot.plt      0x0000000020000020        0x0 build/./TBM_CC/Core/src/iomux_controller.c.o
+
+.rel.dyn        0x0000000020000020        0x0 load address 0x0000000060002e60
+ .rel.iplt      0x0000000020000020        0x0 build/./TBM_CC/Core/src/iomux_controller.c.o
+
+.bss            0x0000000020000020      0xac0
+ *(.bss*)
+ .bss           0x0000000020000020       0x60 build/./TBM_CC/Core/src/system_heap.c.o
+                0x0000000020000020                g_free_blocks
+                0x0000000020000040                heapg_head
+                0x0000000020000044                heapg_current
+                0x0000000020000048                g_used_blocks
+                0x0000000020000068                heapg_tail
+                0x000000002000006c                heapb_current
+                0x0000000020000070                designated_heap
+ *fill*         0x0000000020000080      0x380 
+ .bss           0x0000000020000400      0x6c0 build/./TBM_CC/teensy/startup.c.o
+                0x0000000020000400                extmem_next_free
+                0x0000000020000800                __vectors_ram__
+ *(COMMON)
+                0x0000000020000ac0                . = ALIGN (0x20)
+                0x0000000020000ae0                . = (. + 0x20)
+ *fill*         0x0000000020000ac0       0x20 
+
+.bss.dma        0x0000000020200000        0x0
+ *(.hab_log)
+ *(.dmabuffers)
+                0x0000000020200000                . = ALIGN (0x20)
+
+.bss.extram     0x0000000070000000        0x0
+ *(.externalram)
+                0x0000000070000000                . = ALIGN (0x20)
+
+.text.csf       0x0000000060002e60        0x0
+ FILL mask 0xff
+                0x0000000060002e60                . = ALIGN (0x4)
+ *(.csf)
+                0x0000000000000000                _stext = ADDR (.text.itcm)
+                0x0000000000001c60                _etext = ((ADDR (.text.itcm) + SIZEOF (.text.itcm)) + SIZEOF (.ARM.exidx))
+                0x00000000600011e0                _stextload = LOADADDR (.text.itcm)
+                0x0000000020000000                _sdata = ADDR (.data)
+                0x0000000020000020                _edata = (ADDR (.data) + SIZEOF (.data))
+                0x0000000060002e40                _sdataload = LOADADDR (.data)
+                0x0000000020000020                _sbss = ADDR (.bss)
+                0x0000000020000ae0                _ebss = (ADDR (.bss) + SIZEOF (.bss))
+                0x0000000020200000                _heap_start = (ADDR (.bss.dma) + SIZEOF (.bss.dma))
+                0x0000000020280000                _heap_end = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000070000000                _extram_start = ADDR (.bss.extram)
+                0x0000000070000000                _extram_end = (ADDR (.bss.extram) + SIZEOF (.bss.extram))
+                0x0000000000000001                _itcm_block_count = (((SIZEOF (.text.itcm) + SIZEOF (.ARM.exidx)) + 0x7fff) >> 0xf)
+                0x00000000aaaaaaab                _flexram_bank_config = (0xaaaaaaaa | ((0x1 << (_itcm_block_count * 0x2)) - 0x1))
+                0x0000000020078000                _estack = (ORIGIN (DTCM) + ((0x10 - _itcm_block_count) << 0xf))
+                0x0000000000002e60                _flashimagelen = ((((SIZEOF (.text.progmem) + SIZEOF (.text.itcm)) + SIZEOF (.ARM.exidx)) + SIZEOF (.data)) + SIZEOF (.text.csf))
+                0x0000000000000025                _teensy_model_identifier = 0x25
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+OUTPUT(build/firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x0000000000000000       0x57
+ .comment       0x0000000000000000       0x57 build/./TBM_CC/Core/src/iomux_controller.c.o
+                                         0x58 (size before relaxing)
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/Core/src/system_heap.c.o
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/Core/src/utils/utimer_mgr.c.o
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/Core/src/timer_manager.c.o
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/Core/src/main.c.o
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/Core/src/gpio_handler.c.o
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/teensy/bootdata.c.o
+ .comment       0x0000000000000057       0x58 build/./TBM_CC/teensy/startup.c.o
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x2e build/./TBM_CC/Core/src/iomux_controller.c.o
+ .ARM.attributes
+                0x000000000000002e       0x2e build/./TBM_CC/Core/src/system_heap.c.o
+ .ARM.attributes
+                0x000000000000005c       0x2e build/./TBM_CC/Core/src/utils/utimer_mgr.c.o
+ .ARM.attributes
+                0x000000000000008a       0x2e build/./TBM_CC/Core/src/timer_manager.c.o
+ .ARM.attributes
+                0x00000000000000b8       0x2e build/./TBM_CC/Core/src/main.c.o
+ .ARM.attributes
+                0x00000000000000e6       0x2e build/./TBM_CC/Core/src/gpio_handler.c.o
+ .ARM.attributes
+                0x0000000000000114       0x2e build/./TBM_CC/teensy/bootdata.c.o
+ .ARM.attributes
+                0x0000000000000142       0x2e build/./TBM_CC/teensy/startup.c.o
