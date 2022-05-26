@@ -5,6 +5,7 @@ OBJDUMP = arm-none-eabi-objdump
 SIZE = arm-none-eabi-size
 LOADER = teensy_loader_cli
 CPPCHECK = cppcheck
+CPPLINT = cpplint
 
 OUTFILE = firmware
 
@@ -27,6 +28,7 @@ LDFLAGS = $(INITOPTS)
 LDFLAGS += $(EXTMEMOPTS) 
 LDFLAGS += $(LDSCRIPT_PATH)
 CPPCHECKFLAGS = 
+CPPLINTFLAGS = 
 
 $(BUILD_DIR)/$(OUTFILE).hex: $(BUILD_DIR)/$(OUTFILE).elf
 	@$(OBJCOPY) -O ihex -R .eeprom build/$(OUTFILE).elf build/$(OUTFILE).hex
@@ -44,6 +46,7 @@ $(BUILD_DIR)/%.s.o: %.s
 $(BUILD_DIR)/%.c.o: %.c
 	@$(MKDIR_P) $(dir $@)
 	$(CPPHECK) $(CPPCHECKFLAGS) $<
+	$(CPPLINT) $(CPPLINTFLAGS) $<
 	$(CC) $(CFLAGS) -c $< -o $@
 
 .PHONY: flashnew
